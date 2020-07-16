@@ -26,7 +26,7 @@ public class EndScript : MonoBehaviour
     void EndReached(UnityEngine.Video.VideoPlayer vp)
     {
         Debug.Log("See ya!");
-        Application.Quit();
+        Application.ForceCrash(0);
     }
 
 }

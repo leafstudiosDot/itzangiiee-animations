@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: hodots.
+  companyName: leafstudios
   productName: Itz Angiiee
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -68,7 +68,7 @@ PlayerSettings:
   androidBlitType: 0
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
-  runInBackground: 0
+  runInBackground: 1
   captureSingleScreen: 0
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
@@ -118,7 +118,11 @@ PlayerSettings:
     16:10: 0
     16:9: 1
     Others: 0
+<<<<<<< Updated upstream
   bundleVersion: 4
+=======
+  bundleVersion: 5
+>>>>>>> Stashed changes
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -162,11 +166,11 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.hodots.itzangiiee
+    Android: com.leafstudios.itzangiiee
     Standalone: com.hodots.itzangiiee
   buildNumber:
     Standalone: 43
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 2
   AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
@@ -256,7 +260,7 @@ PlayerSettings:
   clonedFromGUID: 00000000000000000000000000000000
   templatePackageId: 
   templateDefaultScene: 
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 3
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: C:/Users/Moritz/Documents/Backups/Games I Made/itzangiiee-animation_Builded/Android/key.keystore
@@ -514,7 +518,7 @@ PlayerSettings:
   m_BuildTargetGraphicsAPIs:
   - m_BuildTarget: AndroidPlayer
     m_APIs: 0b000000
-    m_Automatic: 0
+    m_Automatic: 1
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
@@ -541,7 +545,7 @@ PlayerSettings:
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality:
   - m_BuildTarget: Android
-    m_EncodingQuality: 2
+    m_EncodingQuality: 0
   - m_BuildTarget: iPhone
     m_EncodingQuality: 2
   m_BuildTargetGroupLightmapSettings: []
@@ -775,7 +779,8 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
@@ -789,11 +794,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: NewUnityProject
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: hodots.
+  metroCertificateIssuer: hodots.
+  metroCertificateNotAfter: 803dd2f855c0d701
   metroApplicationDescription: New Unity Project
   wsaImages: {}
   metroTileShortName: Itz Angiiee

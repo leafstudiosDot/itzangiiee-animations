@@ -1,4 +1,4 @@
-# itzangiiee-animations
+# itzangiiee (Itz Angiiee)
 
 A game for [Itz Angiiee](https://www.youtube.com/channel/UCailSn-tIfbKYFb9duj1yjA) :D
 
